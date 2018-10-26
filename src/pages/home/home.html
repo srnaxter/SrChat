@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Chat Zityfy
+      Chat
     </ion-title>
     <ion-buttons end>
       <button ion-button icon-only (click)="exitChat()">
@@ -41,7 +41,7 @@
   <ion-grid>
     <ion-row>
       <ion-col col-10>
-        <ion-input type="text" placeholder="Type a message" [(ngModel)]="data.message" name="message"></ion-input>
+        <ion-input type="text" placeholder="Escriba un mensaje" [(ngModel)]="data.message" name="message"></ion-input>
       </ion-col>
       <ion-col col-2 (click)="sendMessage()">
         <ion-icon name="paper-plane"></ion-icon>

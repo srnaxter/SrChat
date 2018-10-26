@@ -27,7 +27,7 @@ export class HomePage {
     joinData.set({
       type:'join',
       user:this.nickname,
-      message:this.nickname+' has joined this room.',
+      message:this.nickname+' se ha unido a esta sala.',
       sendDate:Date()
     });
     this.data.message = '';
@@ -59,7 +59,7 @@ export class HomePage {
     exitData.set({
       type:'exit',
       user:this.nickname,
-      message:this.nickname+' has exited this room.',
+      message:this.nickname+' ha salido de esta sala.',
       sendDate:Date()
     });
 

@@ -6,11 +6,11 @@ import * as firebase from 'firebase';
 import { SigninPage } from '../pages/signin/signin';
 
 const config = {
-  apiKey: "",
-  authDomain: "",
-  databaseURL: "",
-  projectId: "",
-  storageBucket: "",
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
 };
 
 @Component({
